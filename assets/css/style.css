@@ -1073,4 +1073,92 @@ section.faq .content-wrapper .accordian-wrapper .faq-accordian.active .content i
 section.faq .content-wrapper .accordian-wrapper .faq-accordian.active .faq-accordian-content {
   border-top: 1px solid #fff;
   transition: all 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+section.quotes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section.quotes .center-div {
+  background: #fff;
+  width: 100%;
+}
+section.quotes .content-wrapper {
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 980px;
+  width: 90%;
+  margin: 0 auto;
+  row-gap: 20px;
+}
+@media screen and (min-width: 980px) {
+  section.quotes .content-wrapper {
+    width: 100%;
+    row-gap: 30px;
+  }
+}
+section.quotes .content-wrapper h2 {
+  font-size: 32px;
+  color: #4d4d4d;
+  font-weight: 500;
+}
+@media screen and (max-width: 690px) {
+  section.quotes .content-wrapper h2 {
+    line-height: 34px;
+    font-size: 22px;
+  }
+}
+section.quotes .content-wrapper span, section.quotes .content-wrapper p {
+  font-size: 22px;
+  font-weight: 500;
+  color: #4d4d4d;
+}
+@media screen and (max-width: 690px) {
+  section.quotes .content-wrapper span, section.quotes .content-wrapper p {
+    line-height: 22px;
+    font-size: 14px;
+  }
+}
+section.quotes .content-wrapper span {
+  max-width: 600px;
+  text-align: center;
+}
+section.quotes .content-wrapper .text-wrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 30px 5rem;
+}
+@media screen and (max-width: 700px) {
+  section.quotes .content-wrapper .text-wrapper {
+    grid-template-columns: auto;
+    gap: 0;
+    row-gap: 20px;
+  }
+}
+section.quotes .content-wrapper .text-wrapper .quote-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 20px;
+}
+@media screen and (max-width: 700px) {
+  section.quotes .content-wrapper .text-wrapper .quote-wrapper {
+    row-gap: 15px;
+  }
+}
+section.quotes .content-wrapper .text-wrapper .quote-wrapper h3 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #4d4d4d;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 690px) {
+  section.quotes .content-wrapper .text-wrapper .quote-wrapper h3 {
+    line-height: 20px;
+    font-size: 18px;
+  }
 }/*# sourceMappingURL=style.css.map */
