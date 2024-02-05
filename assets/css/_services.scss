@@ -1,0 +1,174 @@
+section.featured-hero-banner{
+    height: 610px;
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background: url(../images/hero-bg-windmills-4.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    .content-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 980px;
+        width: 90%;
+        margin: 0 auto;
+        @media screen and (min-width: 980px) {
+            width: 100%;
+        }
+        row-gap: 30px;
+
+        h1{
+            font-size: 46px;
+            font-weight: 500;
+            line-height: 70px;
+            text-align: center;
+            margin-bottom: 50px;
+            color: white;
+            @media screen and (max-width: 700px) {
+                font-size: 32px;
+                line-height: 50px;
+            }    
+        }
+
+        p{
+            font-size: 14px;
+            line-height: 22px;
+            color: white;
+            font-weight: 500;
+            text-align: center;
+
+            @media screen and (min-width: 690px) {
+                line-height: 34px;
+                font-size: 22px;
+            }
+        }
+    }
+}
+
+section.service-content{
+
+    .content-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 980px;
+        width: 90%;
+        margin: 0 auto;
+        @media screen and (min-width: 980px) {
+            width: 100%;
+        }
+        row-gap: 30px;
+        padding: 40px 0;
+
+        p{
+            font-size: 14px;
+            line-height: 22px;
+            color: $primary-color;
+            font-weight: 500;
+            text-align: start;
+
+            @media screen and (min-width: 690px) {
+                line-height: 34px;
+                font-size: 22px;
+            }
+        }
+
+        .content-details{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            row-gap: 50px;
+            justify-content: center;
+
+            h2{
+                font-size: 32px;
+                font-weight: 500;
+                line-height: 48px;
+                text-align: center;
+                color: $primary-color;
+                @media screen and (max-width: 700px) {
+                    font-size: 22px;
+                    line-height: 40px;
+                } 
+            }
+
+            .content-block{
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                column-gap: 20px;
+                @media screen and (max-width: 800px) {
+                    flex-wrap: wrap;
+                }
+
+                ul.content{
+                    display: flex;
+                    list-style: none;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    flex-basis: 0;
+                    flex-grow: 1;
+                    row-gap: 30px;
+                    @media screen and (max-width: 800px) {
+                        width: 100%;
+                        flex-basis: unset;
+                    }
+
+                    li{
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: flex-start;
+
+                        span{
+                            font-size: 24px;
+                            line-height: 24px;
+                            color: $primary-color;
+                            font-weight: 400;
+                            margin-bottom: 30px;
+                            padding-left: 25px;
+                            position: relative;
+                            @media screen and (max-width: 600px) {
+                                font-size: 18px;
+                                line-height: 20px;
+                            }
+                        }
+
+                        span:before{
+                            content: "";
+                            display: flex;
+                            background: url(../images/01-solaricon-e07c00.png) no-repeat;
+                            background-size: cover;
+                            position: absolute;
+                            left: 0;
+                            width: 20px;
+                            height: 20px;
+                        }
+
+                        ul.details{
+                            list-style-type: disc;
+                            padding-left: 35px;
+
+                            li{
+                                font-size: 16px;
+                                line-height: 24px;
+                                color: $primary-color;
+                                font-weight: 300;
+                                display: list-item;
+                                @media screen and (max-width: 600px) {
+                                    font-size: 14px;
+                                    line-height: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

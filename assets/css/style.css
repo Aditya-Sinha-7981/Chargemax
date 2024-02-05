@@ -1481,4 +1481,182 @@ section.blog-collection .content-wrapper .blogs-container .blog-wrapper:nth-chil
 }
 section.blog-collection .content-wrapper .blogs-container .blog-wrapper:nth-child(6) {
   grid-area: blog6;
+}
+
+section.featured-hero-banner {
+  height: 610px;
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  background: url(../images/hero-bg-windmills-4.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+section.featured-hero-banner .content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 980px;
+  width: 90%;
+  margin: 0 auto;
+  row-gap: 30px;
+}
+@media screen and (min-width: 980px) {
+  section.featured-hero-banner .content-wrapper {
+    width: 100%;
+  }
+}
+section.featured-hero-banner .content-wrapper h1 {
+  font-size: 46px;
+  font-weight: 500;
+  line-height: 70px;
+  text-align: center;
+  margin-bottom: 50px;
+  color: white;
+}
+@media screen and (max-width: 700px) {
+  section.featured-hero-banner .content-wrapper h1 {
+    font-size: 32px;
+    line-height: 50px;
+  }
+}
+section.featured-hero-banner .content-wrapper p {
+  font-size: 14px;
+  line-height: 22px;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+}
+@media screen and (min-width: 690px) {
+  section.featured-hero-banner .content-wrapper p {
+    line-height: 34px;
+    font-size: 22px;
+  }
+}
+
+section.service-content .content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 980px;
+  width: 90%;
+  margin: 0 auto;
+  row-gap: 30px;
+  padding: 40px 0;
+}
+@media screen and (min-width: 980px) {
+  section.service-content .content-wrapper {
+    width: 100%;
+  }
+}
+section.service-content .content-wrapper p {
+  font-size: 14px;
+  line-height: 22px;
+  color: #4d4d4d;
+  font-weight: 500;
+  text-align: start;
+}
+@media screen and (min-width: 690px) {
+  section.service-content .content-wrapper p {
+    line-height: 34px;
+    font-size: 22px;
+  }
+}
+section.service-content .content-wrapper .content-details {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 50px;
+  justify-content: center;
+}
+section.service-content .content-wrapper .content-details h2 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  text-align: center;
+  color: #4d4d4d;
+}
+@media screen and (max-width: 700px) {
+  section.service-content .content-wrapper .content-details h2 {
+    font-size: 22px;
+    line-height: 40px;
+  }
+}
+section.service-content .content-wrapper .content-details .content-block {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+@media screen and (max-width: 800px) {
+  section.service-content .content-wrapper .content-details .content-block {
+    flex-wrap: wrap;
+  }
+}
+section.service-content .content-wrapper .content-details .content-block ul.content {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-basis: 0;
+  flex-grow: 1;
+  row-gap: 30px;
+}
+@media screen and (max-width: 800px) {
+  section.service-content .content-wrapper .content-details .content-block ul.content {
+    width: 100%;
+    flex-basis: unset;
+  }
+}
+section.service-content .content-wrapper .content-details .content-block ul.content li {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+section.service-content .content-wrapper .content-details .content-block ul.content li span {
+  font-size: 24px;
+  line-height: 24px;
+  color: #4d4d4d;
+  font-weight: 400;
+  margin-bottom: 30px;
+  padding-left: 25px;
+  position: relative;
+}
+@media screen and (max-width: 600px) {
+  section.service-content .content-wrapper .content-details .content-block ul.content li span {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+section.service-content .content-wrapper .content-details .content-block ul.content li span:before {
+  content: "";
+  display: flex;
+  background: url(../images/01-solaricon-e07c00.png) no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  width: 20px;
+  height: 20px;
+}
+section.service-content .content-wrapper .content-details .content-block ul.content li ul.details {
+  list-style-type: disc;
+  padding-left: 35px;
+}
+section.service-content .content-wrapper .content-details .content-block ul.content li ul.details li {
+  font-size: 16px;
+  line-height: 24px;
+  color: #4d4d4d;
+  font-weight: 300;
+  display: list-item;
+}
+@media screen and (max-width: 600px) {
+  section.service-content .content-wrapper .content-details .content-block ul.content li ul.details li {
+    font-size: 14px;
+    line-height: 20px;
+  }
 }/*# sourceMappingURL=style.css.map */
