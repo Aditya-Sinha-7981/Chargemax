@@ -148,6 +148,33 @@ section.story{
                 top: 50%;
                 border-color: transparent #f2f3f7;
             }
+            .text-bubble:nth-child(4n-2){
+                background: #cbced3;
+            }
+            .text-bubble:nth-child(4n-1){
+                background: #a3adb7;
+                color: white;
+            }
+            .text-bubble:nth-child(4n){
+                background: #7a7f85;
+                color: white;
+            }
+            .text-bubble:nth-child(4n-3){
+                background: #f2f3f7;
+            }
+            
+            .text-bubble:nth-child(4n-2)::after{
+                border-color: transparent #cbced3;
+            }
+            .text-bubble:nth-child(4n-1)::after{
+                border-color: transparent #a3adb7;
+            }
+            .text-bubble:nth-child(4n)::after{
+                border-color: transparent #7a7f85;
+            }
+            .text-bubble:nth-child(4n-3)::after{
+                border-color: transparent #f2f3f7;
+            }
         }
     }
 }

@@ -836,6 +836,32 @@ section.story .content-wrapper .text-bubbles .text-bubble:nth-child(even):after 
   top: 50%;
   border-color: transparent #f2f3f7;
 }
+section.story .content-wrapper .text-bubbles .text-bubble:nth-child(4n-2) {
+  background: #cbced3;
+}
+section.story .content-wrapper .text-bubbles .text-bubble:nth-child(4n-1) {
+  background: #a3adb7;
+  color: white;
+}
+section.story .content-wrapper .text-bubbles .text-bubble:nth-child(4n) {
+  background: #7a7f85;
+  color: white;
+}
+section.story .content-wrapper .text-bubbles .text-bubble:nth-child(4n-3) {
+  background: #f2f3f7;
+}
+section.story .content-wrapper .text-bubbles .text-bubble:nth-child(4n-2)::after {
+  border-color: transparent #cbced3;
+}
+section.story .content-wrapper .text-bubbles .text-bubble:nth-child(4n-1)::after {
+  border-color: transparent #a3adb7;
+}
+section.story .content-wrapper .text-bubbles .text-bubble:nth-child(4n)::after {
+  border-color: transparent #7a7f85;
+}
+section.story .content-wrapper .text-bubbles .text-bubble:nth-child(4n-3)::after {
+  border-color: transparent #f2f3f7;
+}
 
 section.staff {
   display: flex;
