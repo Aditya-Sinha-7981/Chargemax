@@ -1,0 +1,6 @@
+Make the link align items center in navbar: Done
+Remove bg from logo
+Contact form before map: Done
+Map should be 100%: Done
+Order of content: Contact form, location, google map, image: Done
+Use google embed form: Done

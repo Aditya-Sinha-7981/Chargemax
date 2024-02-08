@@ -68,7 +68,7 @@ header nav ul.links {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  align-items: flex-end;
+  align-items: center;
   -moz-column-gap: 20px;
        column-gap: 20px;
 }
@@ -2124,6 +2124,42 @@ section.blog-collection .content-wrapper .collection-wrapper:nth-child(odd) {
   }
 }
 
+section.contact-form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  max-width: 980px;
+  width: 90%;
+  justify-content: center;
+  margin: 0 auto;
+}
+@media screen and (min-width: 980px) {
+  section.contact-form {
+    width: 100%;
+  }
+}
+
+section.google-map {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  max-width: 980px;
+  width: 90%;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+@media screen and (min-width: 980px) {
+  section.google-map {
+    width: 100%;
+  }
+}
+section.google-map iframe {
+  width: 100%;
+}
+
 section.contact {
   padding: 20px 0;
 }
@@ -2142,7 +2178,6 @@ section.contact .content-wrapper {
   }
 }
 section.contact .content-wrapper h1 {
-  margin-top: 20px;
   font-size: 32px;
   font-weight: 500;
   line-height: 48px;
