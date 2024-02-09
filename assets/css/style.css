@@ -8,6 +8,10 @@ body {
   font-family: "Montserrat";
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .center-div {
   max-width: 1400px;
   margin: 0 auto;
