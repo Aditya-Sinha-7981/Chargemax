@@ -96,6 +96,38 @@ section.contact{
                     color: $secondary-color;
                 }
             }
+
+            .social-icons{
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+
+                .icon-wrapper{
+                    margin: 0 10px;
+                    width: 24px;
+                    height: 24px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    a{
+                        text-decoration: none;
+                        transition: all .12s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
+                        i{
+                            color: #4d4d4d;
+                            font-size: 24px;
+                        }
+                    }
+
+                    a:hover{
+                        transition: all .12s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+                        transform: scale(1.2);
+                    }
+                }
+            }
         }
 
         .text-wrapper{
